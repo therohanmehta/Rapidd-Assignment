@@ -6,9 +6,10 @@ Section2and3
 function App() {
   return (
     <div>
-        <HeaderNav/>
-        <Section2and3/>
+        {/* <HeaderNav/>
+        <Section2and3/> */}
         <Section4/>
+        
     </div>
   )
 }

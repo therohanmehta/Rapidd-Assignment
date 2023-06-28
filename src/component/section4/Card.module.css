@@ -1,0 +1,60 @@
+.innerCard {
+  height: 330px;
+  width: 20%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 10px;
+  gap: 2rem;
+  text-align: center;
+  background-color: #e9e9e9;
+}
+.innerCard img {
+  height: 100px;
+  width: 80%;
+}
+
+.innerCard button {
+    display: flex;
+  height: 50px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background-color: #003057;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  gap: 5px;
+}
+
+.sec4cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    padding: 0.5rem;
+   
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.heading p{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 950;
+    line-height: 125%;
+}
+.heading span{
+    text-decoration: underline;
+}
