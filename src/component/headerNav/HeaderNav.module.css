@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.imgDiv{
+
+}
+
+
+.navBtn{
+    
+    height:4.5rem ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+ .navBtn span{
+    height: 72px;
+    width: 108px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    
+    align-items: center;
+}
+
+
+
+
+.subLinks {
+    width: 435.50px;
+    height: 245px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    display: inline-flex;
+  }
+  
+/* span mtlb nablink 
+  .list mtlb ul
+*/
+
+  
+  .subLinks ul {
+    align-self: stretch;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    display: flex;
+    
+    flex-direction: column;
+    background: #F9F9F9;
+    list-style-type: none;
+  }
+  .subLinks ul li:hover{
+  }
+
+
+  

@@ -1,12 +1,11 @@
-import './App.css'
+import HeaderNav from "./component/headerNav/HeaderNav"
+
 
 function App() {
-
-
   return (
-    <>
-      
-    </>
+    <div>
+        <HeaderNav/>
+    </div>
   )
 }
 
