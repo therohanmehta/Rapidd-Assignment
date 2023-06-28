@@ -10,10 +10,7 @@ function HeaderNav() {
             style={{
               width: 160,
               height: 72,
-              borderLeft: "0.50px #34333B solid",
-              borderTop: "0.50px #34333B solid",
-              borderRight: "0.50px #34333B solid",
-              borderBottom: "0.50px #34333B solid",
+              border: "0.50px #34333B solid",
             }}
             src="https://via.placeholder.com/160x72"
           />
@@ -27,7 +24,7 @@ function HeaderNav() {
         </div>
       </nav>
 
-      <div className={style.dropdown}>
+      {/* <div className={style.dropdown}>
 
         <div className={style.subLinks}>
         <span ><b>Ispusnloda</b></span>
@@ -51,7 +48,7 @@ function HeaderNav() {
         </div>
         
 
-      </div>
+      </div> */}
     </>
   );
 }

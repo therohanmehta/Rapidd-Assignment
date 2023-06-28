@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+  
+  .label .wholetxt {
+    color: #003057;
+    font-family: "Montserrat", Helvetica;
+    font-size: 48px;
+    font-weight: 100;
+
+    white-space: nowrap;
+  }
+
+  .label .boldtxt {
+    font-weight: 900;
+  }
+
+
+  .section2wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border: 1px solid;
+  }
+
+.sec2Text{
+    font-size: 1rem;
+    width: 50%;
+    font-weight: 700;
+}
+.sec2BtnDiv{
+    display: flex;
+    width: 60%;
+    gap: 3rem;
+}
+
+.sec2BtnDiv button{
+    height: 4.5rem;
+    width: 40%;
+    /* background-color: white; */
+    /* border */
+    /* color: rgb(0, 0, 0); */
+    font-size: 1rem;
+}
+
+.selectedBtn{
+    font-weight: 600;
+    background-color: #003057; 
+    color: white;
+}
+
+.notSelectedBtn{
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #003057;
+}
+
+.sec3wrapper{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    height: 467px;
+    border: 2px solid;
+}
+
+.leftSide{
+    height: 100%;
+    width: 49%;
+}
+.leftSide img{
+    width: 100%;
+
+}
+.leftSide .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        font-weight: 700;
+    
+        border: 2px;
+}
+.rightSide{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.titleRight {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+
+    justify-content: space-around;
+    border: 2px solid;
+}
+.imgRight{
+    height: 100%;
+    /* margin-bottom: 1rem; */
+}
+
+.imgRight img {
+    margin-top: 10px;
+    height: 80%;
+    width: 99%;
+}
+
+.rightLinks{
+  height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.rightLinks button{
+    width: 155px;
+    height: 37px;
+    border-radius: 50px;
+    background-color: #003057;
+    color: white;
+    border: none;
+}
