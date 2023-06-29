@@ -1,0 +1,53 @@
+.navBox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  background-color: white;
+  position: relative;
+}
+.ddMenu{
+  position: absolute;
+  top: 76px;
+}
+.navBox img {
+  width: 160px;
+  height: 72px;
+}
+.navBox ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.navItem {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: #666;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 150%;
+  position: relative;
+  cursor: pointer;
+}
+.navItem:hover {
+  background-color: #f5f5f5;
+}
+.navItem::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  background-color: #003057;
+  transform: scaleX(0);
+}
+.navItem:hover::after {
+  transform: scaleX(1);
+}

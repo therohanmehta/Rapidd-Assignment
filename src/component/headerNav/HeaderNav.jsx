@@ -24,7 +24,7 @@ function HeaderNav() {
         </div>
       </nav>
 
-      {/* <div className={style.dropdown}>
+      <div className={style.dropdown}>
 
         <div className={style.subLinks}>
         <span ><b>Ispusnloda</b></span>
@@ -48,7 +48,7 @@ function HeaderNav() {
         </div>
         
 
-      </div> */}
+      </div>
     </>
   );
 }
