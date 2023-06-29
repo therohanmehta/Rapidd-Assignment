@@ -1,0 +1,33 @@
+.sec8wrapperDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapperdiv{
+    height: 270px;
+    /* background-color: red; */
+
+    width: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.wrapperdiv h1{
+    /* border: 2px solid; */
+    width: 50%;
+    color: white;
+
+}
+.wrapperdiv button{
+    border: 2px solid;
+    width: 7rem;
+    height: 3.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+}

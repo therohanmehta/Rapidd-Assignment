@@ -4,7 +4,7 @@ function Section4() {
   return (
     <div className={style.sec4wrapper}>
         <div className={style.heading}>
-            <p>Officia ut</p>
+            <h1>Officia ut</h1>
             <span>ipsum Lorem</span>
         </div>
     <div className={style.sec4cardWrapper}>

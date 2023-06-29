@@ -1,0 +1,44 @@
+.sec9wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    list-style-type: none;
+}
+
+.linkWrapper{
+    width: 37.75rem;
+
+
+}
+
+.linkWrapper h3{
+    padding: 10px;
+}
+.linkWrapper li{
+    padding: 0.5rem;
+
+    width: 40%;
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buyLinkWrapper{
+    width: 9.5rem;
+    /* border: 1px solid; */
+}
+.buyLinkWrapper h3{
+        padding: 0.2rem;
+}
+.buyLinks{
+    display: flex;
+    flex-direction: column;
+}
+.buyLinks span{
+    color: #003057;
+    font-weight: 700;
+    padding: 0.6rem 0;
+}
