@@ -242,7 +242,7 @@
     width: 100%;
   }
   .links {
-    border: 2px solid;
+    /* border: 2px solid; */
     flex-wrap: wrap;
     gap: 0;
     width: 100%;
