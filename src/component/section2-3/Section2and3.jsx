@@ -40,17 +40,22 @@ function Section2and3() {
             alt=""
           />
           <div className={styles.links}>
+       
             <span>
               <BsLink45Deg />
-              Link1
+              Ipsum Lorem
             </span>
             <span>
               <BsLink45Deg />
-              Link2
+              Ipsum Lorem
             </span>
             <span>
               <BsLink45Deg />
-              Link3
+              Ipsum Lorem
+            </span>
+            <span>
+              <BsLink45Deg />
+              Ipsum Lorem
             </span>
           </div>
         </div>
@@ -60,7 +65,7 @@ function Section2and3() {
               Numquam. <b> Esse aliquip do, magni.</b>
             </span>
             <h2>Minima ad for vitae sit</h2>
-            <span>Ipsum Lorem</span>
+            <a href="#">Ipsum Lorem</a>
           </div>
           <div className={styles.imgRight}>
             <img
@@ -70,10 +75,10 @@ function Section2and3() {
 
             <div className={styles.rightLinks}>
               <button>
-                <BsLink45Deg /> Button 1
+                <h2><BsLink45Deg /></h2> Ipsum Lorem
               </button>
               <span>Adipisicing unde vel so dolore, consequatur.</span>
-              <a href="#">LInk</a>
+              <a href="#">Ipsum Lorem</a>
             </div>
           </div>
         </div>
