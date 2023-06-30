@@ -19,7 +19,7 @@
 .innerCard img {
   height: 100px;
   width: 100%;
-  aspect-ratio:16/1;
+  aspect-ratio: 16/1;
 }
 
 .innerCard button {
@@ -35,6 +35,7 @@
   border-radius: 5px;
   color: #003057;
   gap: 5px;
+  cursor: pointer;
 }
 .innerCard button:hover {
   background-color: #003057;
@@ -64,17 +65,15 @@
   font-weight: 800;
 }
 @media (max-width: 480px) {
-
-
-  .innerCard{
+  .innerCard {
     width: 100%;
   }
 
-  .innerCard img{
+  .innerCard img {
     width: 80%;
     height: 50%;
   }
-  .innerCard p{
+  .innerCard p {
     line-height: 150%;
     width: 50%;
   }

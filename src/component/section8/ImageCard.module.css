@@ -1,72 +1,62 @@
-.sec8wrapperDiv{
+.sec8wrapperDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.wrapperdiv {
+  height: 16rem;
+  /* background-color: red; */
+
+  width: 26rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.wrapperdiv h1 {
+  width: 50%;
+  color: white;
+}
+.wrapperdiv button {
+  border: 2px solid;
+  width: 7rem;
+  height: 3.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .sec8wrapperDiv {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
-
-}
-.wrapperdiv{
-    height: 16rem;
-    /* background-color: red; */
-
-    width:26rem;
+    flex-direction: column;
+  }
+  .wrapperdiv {
+    /* width: 100%; */
+    width: 100%;
+    gap: 1.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-    margin-bottom: 50px;
+    justify-content: space-around;
+  }
 }
-
-
-.wrapperdiv h1{
-    width: 50%;
-    color: white;
-
-}
-.wrapperdiv button{
-    border: 2px solid;
-    width: 7rem;
-    height: 3.1rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: white;
-    background-color: transparent;
-}
-@media screen and (max-width:768px) {
-    .sec8wrapperDiv{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        
-    }
-    .wrapperdiv{
-        /* width: 100%; */
-        width: 100%;
-        gap: 1.5rem;
-        display: flex;
-        justify-content: space-around;
-       
-    }
- 
-}
-@media screen and (max-width:780px) {
-.wrapperdiv {
+@media screen and (max-width: 780px) {
+  .wrapperdiv {
     display: flex;
     flex-direction: column;
     gap: 0px;
     padding: 0;
-    justify-content:center;
+    justify-content: center;
     margin-bottom: 1rem;
-    
-    
-}
-.wrapperdiv button{
+  }
+  .wrapperdiv button {
     margin-top: 1rem;
     width: 16rem;
-
-}
-
-
+  }
 }

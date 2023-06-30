@@ -60,7 +60,12 @@ function Section4() {
       </div>
       <div className={style.sec4cardWrapper}>
         {cardData.map((ele, ind) => (
-          <Card key={ind} img={ele.imgLink} txt={ele.desc} btnTxt={ele.btnTxt}/>
+          <Card
+            key={ind}
+            img={ele.imgLink}
+            txt={ele.desc}
+            btnTxt={ele.btnTxt}
+          />
         ))}
       </div>
     </div>

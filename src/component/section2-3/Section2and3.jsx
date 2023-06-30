@@ -22,13 +22,23 @@ function Section2and3() {
 
         <div className={styles.sec2BtnDiv}>
           <button>
-            <span><AiOutlineMail /></span> ipsum lorem
+            <span>
+              <AiOutlineMail />
+            </span>{" "}
+            ipsum lorem
           </button>
           <button>
-           <span> <BsLink45Deg /></span> ipsum lorem
+            <span>
+              {" "}
+              <BsLink45Deg />
+            </span>{" "}
+            ipsum lorem
           </button>
           <button>
-           <span><GoLocation /></span>   ipsum lorem
+            <span>
+              <GoLocation />
+            </span>{" "}
+            ipsum lorem
           </button>
         </div>
       </div>
@@ -40,7 +50,6 @@ function Section2and3() {
             alt=""
           />
           <div className={styles.links}>
-       
             <span>
               <BsLink45Deg />
               Ipsum Lorem
@@ -75,7 +84,10 @@ function Section2and3() {
 
             <div className={styles.rightLinks}>
               <button>
-                <h2><BsLink45Deg /></h2> Ipsum Lorem
+                <h2>
+                  <BsLink45Deg />
+                </h2>{" "}
+                Ipsum Lorem
               </button>
               <span>Adipisicing unde vel so dolore, consequatur.</span>
               <a href="#">Ipsum Lorem</a>

@@ -16,9 +16,6 @@ function Navbar() {
   ]);
   const [showHam, setShowHam] = useState(true);
 
-  // const menu = ["Ipsum" ,"Ipsum", "Ipsum", "Ipsum"];
-
-  // const menu=[{name:'Ipsum',status:false},{name:'Ipsum',status:true},{name:'Ipsum',status:false},{name:'Ipsum',status:false}]
   return (
     <>
       <div className={style.navBox}>
@@ -78,9 +75,6 @@ function Navbar() {
         ? ""
         : menu.map((ele, index) => {
             return (
-
-
-              
               <div
                 className={style.smallDropDown}
                 onClick={() => {
@@ -94,18 +88,14 @@ function Navbar() {
                   {ele.name}
                   {ele.status ? <BiSolidUpArrow /> : <BiSolidDownArrow />}
                 </h2>
-                {ele.status ? (
+                {ele.status && (
                   <span>
                     <DropdownMenuSmall />
                   </span>
-                ) : (
-                  ""
                 )}
               </div>
             );
           })}
-        
-
     </>
   );
 }

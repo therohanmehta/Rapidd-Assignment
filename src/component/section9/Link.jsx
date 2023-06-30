@@ -1,10 +1,10 @@
 // import React from 'react'
-import style from './Section9.module.css'
+import style from "./Section9.module.css";
 function Link() {
   return (
     <div className={style.linkWrapper}>
-     <h3>Illum magnam aliquam</h3>
-     <div className={style.links}>
+      <h3>Illum magnam aliquam</h3>
+      <div className={style.links}>
         <li>Ipsum Lorem</li>
         <li>Ipsum Lorem</li>
         <li>Ipsum Lorem</li>
@@ -15,10 +15,9 @@ function Link() {
         <li>Ipsum Lorem</li>
         <li>Ipsum Lorem</li>
         <li>Ipsum Lorem</li>
-        
-     </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Link
+export default Link;

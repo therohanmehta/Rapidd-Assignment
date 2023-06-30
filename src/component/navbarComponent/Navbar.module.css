@@ -59,7 +59,6 @@
   display: none;
 }
 .smallDropDown h2 {
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,10 +67,6 @@
 .smallDropDown {
   display: none;
 }
-
-
-
-
 
 @media (max-width: 820px) {
   .navItem {
@@ -87,16 +82,13 @@
   }
   .smallDropDown {
     display: inline;
-    
     transition: display 1s ease;
   }
   .smallDropDown h2 {
     /* border: 1px solid; */
+    border-left: 5px solid #003057;
     margin-bottom: 1rem;
-  color: #003057;
-  font-weight: 600;
-
+    color: #003057;
+    font-weight: 600;
   }
-
-  
 }
