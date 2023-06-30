@@ -28,6 +28,7 @@
 }
 .navItem {
   display: flex;
+  
   padding: 24px;
   align-items: center;
   gap: 10px;
