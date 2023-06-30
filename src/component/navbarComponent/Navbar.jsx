@@ -4,7 +4,6 @@ import DropDownMenu from "../dropDownMenu/DropDownMenu";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLine } from "react-icons/ri";
 import { BiSolidDownArrow, BiSolidUpArrow } from "react-icons/bi";
-import dropdownMenuSmall from "../dropDownMenu/dropdownMenuSmall";
 import DropdownMenuSmall from "../dropDownMenu/dropdownMenuSmall";
 
 function Navbar() {
