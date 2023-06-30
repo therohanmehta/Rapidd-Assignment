@@ -13,7 +13,7 @@
   flex-direction: row;
   margin-bottom: 50px;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .label .wholetxt {
@@ -53,7 +53,8 @@
   height: 4.5rem;
   width: 40%;
   cursor: pointer;
-
+  color: #003057;
+  border: 2px solid ;
   font-size: 1rem;
   background-color: rgb(255, 255, 255);
   font-size: 1.125rem;
@@ -66,9 +67,7 @@
   gap: 3px;
   border-radius: 5px;
 }
-.sec2BtnDiv span {
-  font-size: 1.3rem;
-}
+
 
 .sec2BtnDiv button:hover {
   font-weight: 600;
@@ -162,6 +161,7 @@
 }
 
 @media (max-width: 820px) {
+
   .section2wrapper {
     display: flex;
     flex-direction: column;
@@ -179,6 +179,7 @@
   .sec3wrapper {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
 
     height: auto;
   }
@@ -236,7 +237,7 @@
     /* border: 2px solid; */
   }
   .sec2BtnDiv {
-    width: 30rem;
+    width: 100%;
   }
   .leftSide img {
     width: 100%;

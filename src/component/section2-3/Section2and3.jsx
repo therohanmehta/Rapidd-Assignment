@@ -23,22 +23,26 @@ function Section2and3() {
         <div className={styles.sec2BtnDiv}>
           <button>
             <span>
-              <AiOutlineMail />
+              <h3>
+                <AiOutlineMail />  
+                </h3>
             </span>{" "}
-            ipsum lorem
+            Ipsum Lorem
           </button>
           <button>
             <span>
-              {" "}
+            <h3> 
               <BsLink45Deg />
-            </span>{" "}
-            ipsum lorem
+            </h3>
+            </span>
+            Ipsum Lorem
           </button>
           <button>
-            <span>
+          <h3> 
               <GoLocation />
-            </span>{" "}
-            ipsum lorem
+            </h3>
+           
+            Ipsum Lorem
           </button>
         </div>
       </div>
