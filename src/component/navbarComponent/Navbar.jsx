@@ -4,7 +4,7 @@ import DropDownMenu from "../dropDownMenu/DropDownMenu";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLine } from "react-icons/ri";
 import { BiSolidDownArrow, BiSolidUpArrow } from "react-icons/bi";
-import DropdownMenuSmall from "../dropDownMenu/dropdownMenuSmall";
+import DropdownMenuSmall from "../dropDownMenu/DropdownMenuSmall";
 
 function Navbar() {
   const [dropDown, setDropDown] = useState(false);
@@ -65,38 +65,38 @@ function Navbar() {
             onMouseOver={() => setDropDown(true)}
             onMouseOut={() => setDropDown(false)}
           >
-            <DropDownMenu />
+            <DropdownMenuSmall />
           </div>
         ) : (
           ""
         )}
       </div>
       <div className={style.smallDropDownBox}>
-      {showHam
-        ? ""
-        : menu.map((ele, index) => {
-            return (
-              <div
-                className={style.smallDropDown}
-                onClick={() => {
-                  const tempMenu = [...menu];
-                  tempMenu[index].active = !tempMenu[index].active;
-                  setMenu(tempMenu);
-                }}
-                key={index}
-              >
-                <h2>
-                  {ele.name}
-                  {ele.active ? <BiSolidUpArrow /> : <BiSolidDownArrow />}
-                </h2>
-                {ele.active && (
-                  <span>
-                    <DropdownMenuSmall />
-                  </span>
-                )}
-              </div>
-            );
-          })}
+        {showHam
+          ? ""
+          : menu.map((ele, index) => {
+              return (
+                <div
+                  className={style.smallDropDown}
+                  onClick={() => {
+                    const tempMenu = [...menu];
+                    tempMenu[index].active = !tempMenu[index].active;
+                    setMenu(tempMenu);
+                  }}
+                  key={index}
+                >
+                  <h2>
+                    {ele.name}
+                    {ele.active ? <BiSolidUpArrow /> : <BiSolidDownArrow />}
+                  </h2>
+                  {ele.active && (
+                    <span>
+                      <DropdownMenuSmall />
+                    </span>
+                  )}
+                </div>
+              );
+            })}
       </div>
     </>
   );
