@@ -10,11 +10,13 @@
 }
 .ddMenu {
   position: absolute;
+  left: 0;
+  right: 0;
   top: 76px;
 }
 .navBox img {
-  width: 160px;
-  height: 72px;
+  height: 3rem;
+
 }
 .navBox ul {
   display: flex;
@@ -72,21 +74,33 @@
   .navItem {
     display: none;
   }
+  .navBox img {
+    width: auto;
+    filter: invert(1);
+  }
   .navBox {
     background-color: #003057;
+    position: relative;
   }
   .Icon {
     display: block;
-    margin-right: 20px;
+    margin-right: 30px;
+    font-weight: bold;
     color: white;
+  }
+  .smallDropDownBox {
+    border-left: 6px solid;
+    position: absolute;
+    background-color: #f5f5f5;
+    top: 72px;
+    right: 0;
+    left: 0;
   }
   .smallDropDown {
     display: inline;
     transition: display 1s ease;
   }
   .smallDropDown h2 {
-    /* border: 1px solid; */
-    border-left: 5px solid #003057;
     margin-bottom: 1rem;
     color: #003057;
     font-weight: 600;

@@ -2,17 +2,18 @@ import { useState } from "react";
 import style from "./Navbar.module.css";
 import DropDownMenu from "../dropDownMenu/DropDownMenu";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineClose } from "react-icons/ai";
+import { RiCloseLine } from "react-icons/ri";
 import { BiSolidDownArrow, BiSolidUpArrow } from "react-icons/bi";
-import DropdownMenuSmall from "../dropDownMenu/DropdownMenuSmall";
+import dropdownMenuSmall from "../dropDownMenu/dropdownMenuSmall";
+import DropdownMenuSmall from "../dropDownMenu/dropdownMenuSmall";
 
 function Navbar() {
   const [dropDown, setDropDown] = useState(false);
   const [menu, setMenu] = useState([
-    { name: "Ipsum", status: false },
-    { name: "Ipsum", status: false },
-    { name: "Ipsum", status: false },
-    { name: "Ipsum", status: false },
+    { name: "Ipsum", active: false },
+    { name: "Ipsum", active: false },
+    { name: "Ipsum", active: false },
+    { name: "Ipsum", active: false },
   ]);
   const [showHam, setShowHam] = useState(true);
 
@@ -20,7 +21,7 @@ function Navbar() {
     <>
       <div className={style.navBox}>
         <img
-          src="https://s3.ap-southeast-1.amazonaws.com/cdn.elitmus.com/pv47kaalgysujzsemzaaf2juo0gx"
+          src="https://pngimg.com/d/letter_r_PNG93920.png"
           alt="Company Logo"
         />
         <ul>
@@ -56,7 +57,7 @@ function Navbar() {
             }}
             className={style.Icon}
           >
-            <AiOutlineClose />
+            <RiCloseLine />
           </h1>
         )}
         {dropDown ? (
@@ -71,6 +72,7 @@ function Navbar() {
           ""
         )}
       </div>
+      <div className={style.smallDropDownBox}>
       {showHam
         ? ""
         : menu.map((ele, index) => {
@@ -79,16 +81,16 @@ function Navbar() {
                 className={style.smallDropDown}
                 onClick={() => {
                   const tempMenu = [...menu];
-                  tempMenu[index].status = !tempMenu[index].status;
+                  tempMenu[index].active = !tempMenu[index].active;
                   setMenu(tempMenu);
                 }}
                 key={index}
               >
                 <h2>
                   {ele.name}
-                  {ele.status ? <BiSolidUpArrow /> : <BiSolidDownArrow />}
+                  {ele.active ? <BiSolidUpArrow /> : <BiSolidDownArrow />}
                 </h2>
-                {ele.status && (
+                {ele.active && (
                   <span>
                     <DropdownMenuSmall />
                   </span>
@@ -96,6 +98,7 @@ function Navbar() {
               </div>
             );
           })}
+      </div>
     </>
   );
 }

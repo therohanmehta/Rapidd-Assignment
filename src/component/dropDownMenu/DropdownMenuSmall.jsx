@@ -3,7 +3,7 @@ import style from "./DropDownMenu.module.css";
 function DropdownMenuSmall() {
   return (
     <div className={style.innerBox}>
-      <div>
+      <div className={style.subLinks}>
         <ul className={style.menuLists}>
           <h4>Ipsum Lorem</h4>
           <li>Link</li>
