@@ -7,6 +7,7 @@
   position: relative;
   margin-bottom: 30px;
   width: 100%;
+  height: 4.5rem;
 }
 .ddMenu {
   position: absolute;
@@ -15,8 +16,8 @@
   top: 76px;
 }
 .navBox img {
-  height: 3rem;
-
+  height: 100%;
+  /* width: auto; */
 }
 .navBox ul {
   display: flex;
