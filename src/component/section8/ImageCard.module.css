@@ -1,6 +1,7 @@
 .sec8wrapperDiv{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 
 }
 .wrapperdiv{
@@ -18,8 +19,8 @@
     margin-bottom: 50px;
 }
 
+
 .wrapperdiv h1{
-    /* border: 2px solid; */
     width: 50%;
     color: white;
 
@@ -57,6 +58,7 @@
     gap: 0px;
     padding: 0;
     justify-content:center;
+    margin-bottom: 1rem;
     
     
 }

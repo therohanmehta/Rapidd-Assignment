@@ -24,14 +24,9 @@ function Section8() {
 
   return (
     <div className={style.sec8wrapperDiv}>
-
-      {data.map((ele,ind)=><ImageCard key={ind}
-        imgLink={ele.imgLink}
-        titleText={ele.cardText}
-        btnText={ele.btnTxt}
-      />)}
-      
-      
+      {data.map((ele, ind) => (
+        <ImageCard key={ind} {...ele} />
+      ))}
     </div>
   );
 }

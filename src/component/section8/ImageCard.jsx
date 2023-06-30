@@ -1,10 +1,14 @@
 import style from './ImageCard.module.css'
 import { FiShoppingCart } from 'react-icons/fi';
-function ImageCard(props) {
+
+function ImageCard({imgLink,cardText,btnTxt}) {
   return (
-    <div style={{backgroundImage:`url(${props.imgLink})`}} className={style.wrapperdiv}>
-        <h1 className={style.titleText}>{props.titleText} </h1>
-        <button><FiShoppingCart/>  {props.btnText} </button>
+   
+    <div style={{backgroundImage:`url(${imgLink})`}} className={style.wrapperdiv}>
+  
+        <h1 className={style.titleText}>{cardText} </h1>
+        <button><FiShoppingCart/>  {btnTxt} </button>
+
     </div>
   )
 }
