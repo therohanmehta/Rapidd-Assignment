@@ -15,3 +15,14 @@
     font-size: 1.8rem;
     font-weight: 800;
 }
+
+@media (max-width: 480px) {
+    .footerWrapper span{
+        font-size: 1.3rem;
+    }
+.footerWrapper p{
+   line-height: 125%;
+    padding:0 4rem;
+}
+
+}
