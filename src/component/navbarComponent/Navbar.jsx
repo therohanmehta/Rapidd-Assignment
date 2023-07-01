@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <div className={style.navBox}>
         <img
-          src="https://pngimg.com/d/letter_r_PNG93920.png"
+          src="https://www.pngall.com/wp-content/uploads/2017/05/Copyright-Symbol-R-PNG-Clipart.png"
           alt="Company Logo"
         />
         <ul>

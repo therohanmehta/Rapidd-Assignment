@@ -33,21 +33,21 @@
   background-color: transparent;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .sec8wrapperDiv {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-direction: column;
   }
   .wrapperdiv {
     /* width: 100%; */
     width: 100%;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     display: flex;
     justify-content: space-around;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
   .wrapperdiv {
     display: flex;
     flex-direction: column;
